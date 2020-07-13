@@ -18,7 +18,6 @@ namespace Peronajes
         //personalidad
         private string tipo;
         private string nombre;
-        private string nicks;
         private string fecha;
         private int edad;
         private int salud;
@@ -26,7 +25,6 @@ namespace Peronajes
         
         public string Tipo { get => tipo; set => tipo = value; }
         public string Nombre { get => nombre; set => nombre = value; }
-        public string Nicks { get => nicks; set => nicks = value; }
         public string Fecha { get => fecha; set => fecha = value; }
         public int Edad { get => edad; set => edad = value; }
         public int Salud { get => salud; set => salud = value; }
